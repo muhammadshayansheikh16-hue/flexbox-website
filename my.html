@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Web</title>
+
+    <style>
+        body {
+            background-color: rgb(253, 210, 130);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li {
+            list-style: none;
+            font-size: x-large;
+            padding: 34px;
+            margin-left: 113px;
+            color: white;
+            text-shadow: none;
+            cursor: pointer;
+
+        }
+
+
+        ul li:hover {
+            color: black;
+            /* text color change */
+            background-color: rgb(255, 197, 88);
+            /* halka orange hover background */
+            border-radius: 10px;
+            /* thoda smooth look */
+            transform: scale(0.9);
+            /* thoda bada ho jaaye hover pe */
+        }
+
+        ul {
+            display: flex;
+            gap: 45px;
+            justify-content: center;
+            justify-items: center;
+            background-color: orange;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .item {
+            height: 345px;
+            width: 245px;
+            background-color: aliceblue;
+            margin: 34px;
+        }
+
+        .box {
+            background-color: orange;
+            padding: 45px;
+            font-size: x-large;
+            color: white;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .item{border-radius: 34px;}
+
+        .box{border-radius: 130px;
+        text-shadow: #333;}
+
+        div > p{font-size: medium;
+        color: rgb(255, 255, 255);
+    background-color: orange;
+padding: 35px;}
+
+footer p {
+  font-size: 18px;
+  color: #333;
+  background-color: white;
+  padding: 35px;
+  line-height: 1.6;
+  border-top: 2px solid orange;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Products</li>
+                <li>Contact</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="item"></div>
+            <div style="background-color: black;" class="item"></div>
+            <div class="item"></div>
+            <div style="background-color: black;" class="item"></div>
+            <div class="item"></div>
+            <div style="background-color: black;" class="item"></div>
+            <div class="item"></div>
+            <div style="background-color: black;" class="item"></div>
+            <div class="item"></div>
+            <div style="background-color: black;" class="item"></div>
+            <div class="item"></div>
+            <div style="background-color: black;" class="item"></div>
+            <div class="item"></div>
+            <div style="background-color: black;" class="item"></div>
+            <div class="item"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="box">This is the over simple website for made using flexbox</div>
+        <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci id vel laboriosam eum? Architecto molestias nostrum dicta quia qui minima aliquid aspernatur, magni asperiores perspiciatis. Similique, reprehenderit? Pariatur quae expedita esse possimus quos et, quaerat soluta ut voluptates! Corrupti ratione quae labore, ducimus quis dignissimos repellat quidem explicabo vitae! Rerum asperiores facere maiores inventore harum architecto cum quos, sit nulla at ipsam? Similique ullam accusantium, dolor, at autem impedit, natus excepturi sint aspernatur alias tempora illo neque aliquam?</p></div>
+        
+    </footer>
+</body>
+
+</html>
